@@ -12,7 +12,7 @@
 </head>
 <body>
     <h3>hello world</h3>
-    <a href="hello">first day</a>
+    <a href="hello">first day1</a>
     <form action="param/save" method="post">
         姓名：<input type="text" name="username" /><br>
         密码：<input type="text" name="password" /><br>

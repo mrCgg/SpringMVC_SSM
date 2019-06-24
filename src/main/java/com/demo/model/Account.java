@@ -1,6 +1,8 @@
 package com.demo.model;
 
 import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
 
 /**
  * describe:
@@ -12,7 +14,9 @@ public class Account implements Serializable {
     private String username;
     private String password;
     private Double money;
-    private Detail detail;
+//    private Detail detail;
+    private List<Detail> list;
+    private Map<String,Detail> map;
     public String getUsername() {
         return username;
     }
@@ -37,12 +41,28 @@ public class Account implements Serializable {
         this.money = money;
     }
 
-    public Detail getDetail() {
-        return detail;
+//    public Detail getDetail() {
+//        return detail;
+//    }
+//
+//    public void setDetail(Detail detail) {
+//        this.detail = detail;
+//    }
+
+    public List<Detail> getList() {
+        return list;
     }
 
-    public void setDetail(Detail detail) {
-        this.detail = detail;
+    public void setList(List<Detail> list) {
+        this.list = list;
+    }
+
+    public Map<String, Detail> getMap() {
+        return map;
+    }
+
+    public void setMap(Map<String, Detail> map) {
+        this.map = map;
     }
 
     @Override
@@ -51,7 +71,8 @@ public class Account implements Serializable {
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", money=" + money +
-                ", Detail=" + detail +
+                ", list=" + list +
+                ", map=" + map +
                 '}';
     }
 }

@@ -13,6 +13,7 @@ import java.util.Date;
  * @author cgg
  * @date 2019/06/24
  */
+//需要继承接口
 public class StringToDateConvert implements Converter<String, Date> {
     @Override
     public Date convert(String s) {

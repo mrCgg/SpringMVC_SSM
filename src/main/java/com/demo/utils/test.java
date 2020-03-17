@@ -9,5 +9,6 @@ package com.demo.utils;
 public class test {
     public void test(){
         System.out.println("test2");
+        System.out.println("test");
     }
 }

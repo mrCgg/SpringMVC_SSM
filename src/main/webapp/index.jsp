@@ -33,7 +33,18 @@
         <input type="submit" value="提交">
     </form>--%>
 
-    <a href="servletapi">test</a>
+    <%--<a href="servletapi">testapi</a>--%>
 
+        <a href="testParam/PathVariable/1">test</a>
+
+    <br>
+    <form action="testParam/testModelAttribute" method="post">
+        地址：<input type="text" name="address" /><br>
+        <input type="submit" value="提交">
+    </form>
+    <br>
+    <a href="testParam/testSessionAttribute">testSession</a>
+    <a href="testParam/getSessionAttribute">testSession</a>
+    <a href="testParam/deleteSessionAttribute">testSession</a>
 </body>
 </html>

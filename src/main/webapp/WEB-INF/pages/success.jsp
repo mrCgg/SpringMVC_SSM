@@ -13,8 +13,6 @@
 <body>
     success<br>
 
-    ${requestScope.name}
 
-    ${sessionScope}
 </body>
 </html>
